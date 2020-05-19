@@ -1,0 +1,83 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>deeplearning4j_CNN</groupId>
+	<artifactId>deeplearning4j_CNN</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<jdk.version>1.8</jdk.version>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-core -->
+		<dependency>
+			<groupId>org.deeplearning4j</groupId>
+			<artifactId>deeplearning4j-core</artifactId>
+			<version>1.0.0-beta7</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-ui -->
+		<dependency>
+			<groupId>org.deeplearning4j</groupId>
+			<artifactId>deeplearning4j-ui</artifactId>
+			<version>1.0.0-beta7</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-native-platform -->
+		<dependency> <groupId>org.nd4j</groupId>
+		    <artifactId>nd4j-native-platform</artifactId> 
+	    <version>1.0.0-beta7</version> </dependency>
+			
+			
+<!-- 
+		https://mvnrepository.com/artifact/org.nd4j/nd4j-cuda-10.1-platform
+		<dependency>
+			<groupId>org.nd4j</groupId>
+			<artifactId>nd4j-cuda-10.1-platform</artifactId>
+			<version>1.0.0-beta7</version>
+		</dependency>
+
+
+
+		https://mvnrepository.com/artifact/org.nd4j/nd4j-cuda-10.0
+		<dependency>
+			<groupId>org.nd4j</groupId>
+			<artifactId>nd4j-cuda-10.0</artifactId>
+			<version>1.0.0-beta7</version>
+		</dependency>
+
+
+		https://mvnrepository.com/artifact/org.bytedeco.javacpp-presets/cuda-platform
+		<dependency>
+			<groupId>org.bytedeco.javacpp-presets</groupId>
+			<artifactId>cuda-platform</artifactId>
+			<version>10.0-7.4-1.4.4</version>
+		</dependency>
+
+
+		https://mvnrepository.com/artifact/org.bytedeco.javacpp-presets/cuda
+		<dependency>
+			<groupId>org.bytedeco.javacpp-presets</groupId>
+			<artifactId>cuda</artifactId>
+			<version>10.0-7.4-1.4.4</version>
+		</dependency>
+
+
+
+		https://mvnrepository.com/artifact/org.nd4j/nd4j-buffer
+		<dependency>
+			<groupId>org.nd4j</groupId>
+			<artifactId>nd4j-buffer</artifactId>
+			<version>1.0.0-beta6</version>
+		</dependency>
+ -->
+
+
+	</dependencies>
+
+</project>
